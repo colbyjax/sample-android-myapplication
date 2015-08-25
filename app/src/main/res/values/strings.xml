@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="search">Search</string>
+    <string name="love">Love</string>
+    <string name="like">Like</string>
+    <string name="hate">Hate</string>
+    <string name="hello_world">Hello World</string>
+    <string name="action_settings">Settings</string>
+</resources>
