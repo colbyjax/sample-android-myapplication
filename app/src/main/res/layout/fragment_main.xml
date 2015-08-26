@@ -52,6 +52,15 @@
         android:text="@string/hate"
         android:onClick="onHateClick"
         />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:layout_toRightOf="@+id/hate"
+        android:src="@drawable/ic_thumbs_up"
+        android:onClick="onLoveClick"
+        />
     <TextView
         android:id="@+id/result_string"
         android:text="@string/hello_world"
@@ -59,5 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/hate"
         />
+
+
 
 </RelativeLayout>
