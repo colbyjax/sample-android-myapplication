@@ -2,6 +2,7 @@ package com.bitsteam.android.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -43,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLoveClick(View view){
+        Log.i("MainActivity","onLoveClick - Love Clicked");
+
         loveCount++;
         hateCount--;
         setDisplayString();
@@ -50,11 +53,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLikeClick(View view){
+        Log.i("MainActivity","onLikeClick - Like Clicked");
         likeCount++;
         setDisplayString();
     }
 
     public void onHateClick(View view){
+        Log.i("MainActivity","onHateClick - Hate Clicked");
         hateCount++;
         loveCount--;
         setDisplayString();
